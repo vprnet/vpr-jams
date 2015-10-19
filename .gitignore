@@ -9,6 +9,7 @@ venv
 trash
 node_modules
 .sass-cache
+.svg
 
 # C extensions
 *.so
