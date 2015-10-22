@@ -6,7 +6,7 @@ from config import FREEZER_BASE_URL
 @app.route('/')
 def index():
     page_title = '#VPRJAMS'
-    page_subtitle = 'from Vermont Public Radio'
+    page_subtitle = 'Vermont Public Radio'
     page_url = FREEZER_BASE_URL.rstrip('/') + request.path
 
 
